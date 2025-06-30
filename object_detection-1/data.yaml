@@ -1,0 +1,15 @@
+names:
+- ball
+- goal_keeper
+- players
+- refree
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: object_detection-g8zak
+  url: https://universe.roboflow.com/biswajitplayeriddetection/object_detection-g8zak/dataset/1
+  version: 1
+  workspace: biswajitplayeriddetection
+test: ../test/images
+train: ../train/images
+val: ../valid/images
